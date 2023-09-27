@@ -14,3 +14,15 @@
       en cada oportunidad fallida se le darán pistas para saber si debe intentar con un número mayor o menor.
 
   		*/
+        let numeroaleatorio = Math.floor(Math.random() * 100)
+        alert(numeroaleatorio)
+        let tries= 0
+        var prueba = parseInt (prompt("prueba con un valor"))
+        if (prueba==numeroaleatorio){alert ("has ganado")}
+        else{ tries +=1; alert("prueba de nuevo");prueba}
+        if (tries >=5 ) {alert ("has perdido")
+        } else {"prueba de nuevo"}
+    </script>
+      </body>
+      </html>
+
